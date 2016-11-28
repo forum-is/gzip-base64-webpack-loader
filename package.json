@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "gzip-base64-webpack-loader",
   "version": "0.0.1",
   "description": "Gzip base64 loader module for webpack",
-  "author": "FORUM Gesellschaft f�r Informationssicherheit mbH",
+  "author": "FORUM Gesellschaft für Informationssicherheit mbH",
   "licenses": [
     {
       "type": "MIT",
