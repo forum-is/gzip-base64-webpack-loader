@@ -1,0 +1,20 @@
+{
+  "name": "gzip-base64-webpack-loader",
+  "version": "0.0.1",
+  "description": "Gzip base64 loader module for webpack",
+  "author": "FORUM Gesellschaft für Informationssicherheit mbH",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:forum-is/gzip-base64-webpack-loader.git"
+  },
+  "dependencies": {
+    "base64-js": "^1.2.0",
+    "pako": "^1.0.3"
+  }
+}
