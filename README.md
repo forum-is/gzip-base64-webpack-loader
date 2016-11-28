@@ -23,12 +23,14 @@ loaders: [
 
 Or use it on a per-file basis:
 
-```var packedDatadata = require('!gzip-base64!bigfile.txt');
+```javascript
+var packedDatadata = require('!gzip-base64!bigfile.txt');
 ```
 
 To extract the data, use:
 
-```var pako = require('pako');
+```javascript
+var pako = require('pako');
 var base64 = require('base64-js');
 var packedData = require('!gzip-base64!bigfile.txt');
 var data = pako.inflate(base64.toByteArray(packedData), { to: 'string' });  // assuming the original data was a string
